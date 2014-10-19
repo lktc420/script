@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# nohup /home/ruoxi/script/start_metastore.sh > /dev/null &
+# nohup $HOME_ABS/script/start_metastore.sh > /dev/null &
 nohup /usr/lib/zookeeper/bin/zkServer.sh start > /dev/null &
 nohup /usr/lib/hadoop-hdfs/bin/hdfs namenode > /dev/null &
 nohup /usr/lib/hadoop-hdfs/bin/hdfs datanode > /dev/null &

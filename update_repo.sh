@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cp -rf /home/ruoxi/.m2/repository/* /home/ruoxi/.ivy2/cache/* /var/www/artifactory/repo
+cp -rf $HOME_ABS/.m2/repository/* $HOME_ABS/.ivy2/cache/* /var/www/artifactory/repo
